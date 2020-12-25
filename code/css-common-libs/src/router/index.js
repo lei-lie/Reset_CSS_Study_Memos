@@ -8,6 +8,10 @@ const router = new VueRouter({
         {
             path:'/',
             component:() => import('@/views/img-demo')
+        },
+        {
+            path:'/autoScroll',
+            component:() => import('@/views/autoScrollForNews')
         }
     ]
 })
